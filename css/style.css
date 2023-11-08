@@ -28,7 +28,7 @@ main {
     padding: 20px;
 }
 
-.li img {
+main ul li img {
     width: 200px; /* Largeur fixe de 200px */
     height: 150px; /* Hauteur fixe de 150px */
     margin-right: 20px; /* Ajoute un espace de 20px entre l'image et le texte */
