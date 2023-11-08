@@ -28,7 +28,7 @@ main {
     padding: 20px;
 }
 
-.main li img {
+.li img {
     max-width: 200px; /* Réduisez la largeur de l'image au besoin */
     margin-right: 20px; /* Ajoute un espace de 20px entre l'image et le texte */
     margin: 0; /* Supprimez toutes les autres marges de l'image */
