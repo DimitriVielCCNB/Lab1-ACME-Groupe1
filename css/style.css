@@ -28,6 +28,15 @@ main {
     padding: 20px;
 }
 
+main ul li img {
+    width: 200px; /* Largeur fixe de 200px */
+    height: 150px; /* Hauteur fixe de 150px */
+    margin-right: 20px; /* Ajoute un espace de 20px entre l'image et le texte */
+    margin: 0; /* Supprimez toutes les autres marges de l'image */
+}
+
+
+
 #cta-section {
     background-color: #f2f2f2;
     padding: 20px;
