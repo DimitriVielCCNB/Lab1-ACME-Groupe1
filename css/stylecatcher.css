@@ -1,0 +1,162 @@
+/* Reset de base pour certains éléments */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; 
+  color: #333; 
+}
+
+/* Style pour l'en-tête, incluant la barre de navigation */
+header {
+  background-color: #003366; 
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden; 
+  text-align: center; 
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #ff6600;
+  color: white;
+}
+
+/* Style du contenu principal */
+main {
+  padding: 20px;
+  background-color: #fff; 
+}
+
+/* Style des sections de produits */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  gap: 20px; 
+}
+
+.product {
+  border: 1px solid #ddd; 
+  padding: 20px;
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+  width: calc(33.333% - 40px); 
+}
+
+.product h2 {
+  color: #99cc00; 
+}
+
+.product p {
+  margin-bottom: 15px; 
+}
+
+.product a {
+  color: #ff6600; 
+  text-decoration: none;
+}
+
+.product a:hover {
+  text-decoration: underline; 
+}
+
+/* Style pour le footer */
+footer {
+  background-color: #003366; 
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative; 
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.language-selector {
+  text-align: right; 
+  padding: 0px 5px; 
+}
+.language-selector button {
+  background-color: #ff6600; 
+  border: none; 
+  padding: 0px 0px; 
+  margin: 0px 5px; 
+  border-radius: 5px; 
+  color: white; 
+  font-size: 13px; 
+  cursor: pointer; 
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product {
+      width: calc(50% - 40px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+      width: 100%; 
+  }
+
+  nav ul li {
+      display: block; 
+      margin-right: 0;
+  }
+}
+/* Style pour les articles de produits */
+.product {
+    text-align: center; 
+}
+
+.product img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+}
+
+
+@media (max-width: 768px) {
+    .product img {
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .product img {
+        max-width: 100%; 
+    }
+}
+
