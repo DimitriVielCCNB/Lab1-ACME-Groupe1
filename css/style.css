@@ -1,29 +1,20 @@
-/* Reset de base pour certains éléments */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-
+/* Styles pour la page d'accueil */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #003366; 
-    color: white;
+    background-color: #978c8c;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
 nav ul {
+    list-style: none;
     padding: 0;
-    list-style-type: none;
-    overflow: hidden; 
-    text-align: center;
 }
 
 nav ul li {
@@ -35,40 +26,27 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
 }
 
-nav a:hover {
-    background-color: #ff6600; 
-    color: white;
-  }
+main ul li img {
+    width: 200px; /* Largeur fixe de 200px */
+    height: 150px; /* Hauteur fixe de 150px */
+    margin-right: 20px; /* Ajoute un espace de 20px entre l'image et le texte */
+    margin: 0; /* Supprimez toutes les autres marges de l'image */
+}
 
-.section h1 {
-    color: #99cc00; 
-  }
-  
-.product-detail {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;  
-    border: 1px solid #ddd; 
+
+
+#cta-section {
+    background-color: #f2f2f2;
     padding: 20px;
-    border-radius: 5px;
-    gap: 20px;
 }
 
-.img {
-    float: center;
-}
 footer {
-        background-color: #003366; 
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        position: relative; 
-        bottom: 0;
-        width: 100%;  
-        
+    background-color: #978c8c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
 #cta-section ul {
@@ -80,12 +58,9 @@ footer {
     margin-bottom: 10px;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-  }
+form input {
+    padding: 5px;
+}
 
 form button {
     background-color: #333;
