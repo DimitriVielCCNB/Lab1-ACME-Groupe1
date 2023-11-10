@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #003366; /* Bleu marine pour la fiabilité et le professionnalisme */
+    background-color: #003366; 
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -22,7 +22,7 @@ header {
 nav ul {
     padding: 0;
     list-style-type: none;
-    overflow: hidden; /* Pour conserver les éléments de la liste en ligne */
+    overflow: hidden; 
     text-align: center;
 }
 
@@ -39,19 +39,19 @@ main {
 }
 
 nav a:hover {
-    background-color: #ff6600; /* Orange pour les survols */
+    background-color: #ff6600; 
     color: white;
   }
 
 .section h1 {
-    color: #99cc00; /* Vert lime pour les titres de produits */
+    color: #99cc00; 
   }
   
 .product-detail {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;  
-    border: 1px solid #ddd; /* Bordure subtile pour chaque produit */
+    border: 1px solid #ddd; 
     padding: 20px;
     border-radius: 5px;
     gap: 20px;
@@ -61,11 +61,11 @@ nav a:hover {
     float: center;
 }
 footer {
-        background-color: #003366; /* Bleu marine */
+        background-color: #003366; 
         color: white;
         text-align: center;
         padding: 10px 0;
-        position: relative; /* Remplacé par 'fixed' si vous voulez qu'il soit toujours visible */
+        position: relative; 
         bottom: 0;
         width: 100%;  
         
@@ -93,3 +93,19 @@ form button {
     border: none;
     padding: 5px 10px;
 }
+
+.language-selector {
+    text-align: right; 
+    padding: 0px 5px; 
+  }
+  .language-selector button {
+    background-color: #ff6600; 
+    border: none; 
+    padding: 0px 0px; 
+    margin: 0px 5px; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 13px; 
+    cursor: pointer; 
+  }
+
